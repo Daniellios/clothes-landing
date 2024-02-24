@@ -87,15 +87,15 @@ export const Main = () => {
         <div className="men-women-grid">
           <div className="man-default-div">
             <picture>
-              <source media="(min-width:800px)" srcSet={menDefaultBig} />
-              <source media="(min-width:500px)" srcSet={menDefaultSmall} />
+              <source media="(min-width:800px)" src={menDefaultBig} />
+              <source media="(min-width:500px)" src={menDefaultSmall} />
               <img src={menDefaultSmall} alt="" />
             </picture>
           </div>
           <div>
             <picture>
-              <source media="(min-width:800px)" srcSet={womenDefaultBig} />
-              <source media="(min-width:500px)" srcSet={womenDefaultSmall} />
+              <source media="(min-width:800px)" src={womenDefaultBig} />
+              <source media="(min-width:500px)" src={womenDefaultSmall} />
               <img src={womenDefaultSmall} alt="" />
             </picture>
           </div>
