@@ -1,7 +1,14 @@
 import React, { useEffect } from 'react'
 import { Slider } from './Slider'
 import { Testimonials } from './Testimonials'
-
+import menDefaultBig from '../assets/images/man-default-p-800.jpeg'
+import menDefaultSmall from '../assets/images/man-default-p-500.jpeg'
+import womenDefaultBig from '../assets/images/women-default-p-800.jpeg'
+import womenDefaultSmall from '../assets/images/women-default-p-800.jpeg'
+import circle from '../assets/images/circle-container.svg'
+import arrowLogo from '../assets/images/arrow.svg'
+import inkContainer from '../assets/images/ink-container.svg'
+import arrowRight from '../assets/images/arrow-right.svg'
 
 export const Main = () => {
   const marque = new Array(10).fill(1)
@@ -80,16 +87,16 @@ export const Main = () => {
         <div className="men-women-grid">
           <div className="man-default-div">
             <picture>
-              <source media="(min-width:800px)" srcSet="src/assets/images/man-default-p-800.jpeg" />
-              <source media="(min-width:500px)" srcSet="src/assets/images/man-default-p-500.jpeg" />
-              <img src="src/assets/images/man-default-p-500.jpeg" alt="" />
+              <source media="(min-width:800px)" srcSet={menDefaultBig} />
+              <source media="(min-width:500px)" srcSet={menDefaultSmall} />
+              <img src={menDefaultSmall} alt="" />
             </picture>
           </div>
           <div>
             <picture>
-              <source media="(min-width:800px)" srcSet="src/assets/images/women-default-p-800.jpeg" />
-              <source media="(min-width:500px)" srcSet="src/assets/images/women-default-p-500.jpeg" />
-              <img src="src/assets/images/women-default-p-500.jpeg" alt="" />
+              <source media="(min-width:800px)" srcSet={womenDefaultBig} />
+              <source media="(min-width:500px)" srcSet={womenDefaultSmall} />
+              <img src={womenDefaultSmall} alt="" />
             </picture>
           </div>
         </div>
@@ -106,8 +113,8 @@ export const Main = () => {
 
         <div className="explore-div">
           <div>Explore</div>
-          <img className="circle" srcSet="src/assets/images/circle-container.svg" alt="" />
-          <img className="arrow-right" srcSet="src/assets/images/arrow.svg" alt="" />
+          <img className="circle" srcSet={circle} alt="" />
+          <img className="arrow-right" srcSet={arrowLogo} alt="" />
         </div>
       </section>
       <div className="marquee">
@@ -128,8 +135,8 @@ export const Main = () => {
       <Slider />
       <div className="shop-all">
         <div>Shop all</div>
-        <img className="circle-2" src="src/assets/images/ink-container.svg" alt="" />
-        <img className="arrow-right-2" src="src/assets/images/arrow-right.svg" alt="" />
+        <img className="circle-2" src={inkContainer} alt="" />
+        <img className="arrow-right-2" src={arrowRight} alt="" />
       </div>
       <Testimonials />
     </main >

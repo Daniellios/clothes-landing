@@ -1,6 +1,7 @@
 import React from 'react'
 
-import logo from '../assets/images/newsletter-face.svg'
+import newsletter from '../assets/images/newsletter-face.svg'
+import arrowUp from '../assets/images/newsletter-face.svg'
 
 export const Footer = () => {
   const scrollUP = () => {
@@ -12,7 +13,7 @@ export const Footer = () => {
       <div className="footer-grid">
         <div className="mobile-none">
           <h4>Subscribe to Newsletter</h4>
-          <img className="newsletter" src={logo} alt="" />
+          <img className="newsletter" src={newsletter} alt="" />
         </div>
         <div>
           <ul>
@@ -39,7 +40,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="arrow-up" onClick={scrollUP}>
-        <img id="arrow-up" src="src/assets/images/arrow-up.svg" alt="" />
+        <img id="arrow-up" src={arrowUp} alt="" />
       </div>
       <div className="footer-bottom">
         <div className="flex-end">Credits</div>

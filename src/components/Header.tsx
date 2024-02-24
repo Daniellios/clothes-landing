@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 
+import logo from '../assets/images/de-logotype.svg'
+import logoWhite from '../assets/images/de-logotype-white.svg'
+import logoVert from '../assets/images/de-logotype-vert.svg'
+
 export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
@@ -26,28 +30,28 @@ export const Header = () => {
     body.classList.toggle('ink');
 
     if (body.classList.contains('ink')) {
-      verticalLogo.src = 'images/ink-logo-vert.svg';
-      newsletterLogo.src = 'images/newsletter-side.svg';
-      facebookLogo.src = 'images/facebook2.svg';
-      instagramLogo.src = 'images/instagram2.svg';
+      verticalLogo.src = '../assets/images/ink-logo-vert.svg';
+      newsletterLogo.src = '../assets/images/newsletter-side.svg';
+      facebookLogo.src = '../assets/images/facebook2.svg';
+      instagramLogo.src = '../assets/images/instagram2.svg';
     } else {
-      verticalLogo.src = 'images/de-logotype-vert.svg';
-      newsletterLogo.src = 'images/newsletter-face.svg';
-      facebookLogo.src = 'images/facebook1.svg';
-      instagramLogo.src = 'images/instagram1.svg';
+      verticalLogo.src = '../assets/images/de-logotype-vert.svg';
+      newsletterLogo.src = '../assets/images/newsletter-face.svg';
+      facebookLogo.src = '../assets/images/facebook1.svg';
+      instagramLogo.src = '../assets/images/instagram1.svg';
     }
   }
 
   return (
     <header >
       <nav className="mobile-nav">
-        <img className="logo" src="images/de-logotype.svg" alt="" />
+        <img className="logo" src={logo} alt="" />
         <div className="line" onClick={hanldeMobileNavToggle}></div>
         <div>CART</div>
       </nav>
       <div className={isNavOpen ? "mobile-nav-open block" : 'mobile-nav-open'}>
         <div className="mobile-nav-open-flex">
-          {!isNavOpen && <img className="logo" src="src/assets/images/de-logotype-white.svg" alt="" />}
+          {!isNavOpen && <img className="logo" src={logoWhite} alt="" />}
           <i id="close" onClick={hanldeMobileNavToggle} className="fas fa-times fa-3x"></i>
           <div style={{ marginLeft: 'auto' }}>CART</div>
         </div>
@@ -79,7 +83,7 @@ export const Header = () => {
         </div>
       </div>
       <nav className="desktop-nav">
-        <div><img className="vertical-logo" src="src/assets/images/de-logotype-vert.svg" alt="" /></div>
+        <div><img className="vertical-logo" src={logoVert} alt="" /></div>
         <div id="ink-mode" onClick={tpggleInkMode}>INK MODE</div>
         <div>CART</div>
       </nav>

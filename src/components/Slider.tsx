@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-
+import unisex from '../assets/images/unisex-label.svg'
 
 const sliderImages = [
   { season: 'SS/20', code: 'THE CODE', oldPrice: '240EUR', newPrice: '144EUR', img: 'the-code' },
@@ -51,7 +51,7 @@ export const Slider = () => {
           {sliderImages.map((product, idx) =>
             <div className="card" key={idx}>
               <div className={`card-img-div ${product.img}`}></div>
-              <img className="unisex" srcSet="src/assets/images/unisex-label.svg" alt="" />
+              <img className="unisex" srcSet={unisex} alt="" />
               <div>{product.season}</div>
               <div>{product.code}</div>
               <div className="line-through">&euro; {product.oldPrice}</div>
