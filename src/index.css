@@ -531,7 +531,7 @@ input:focus {
 }
 
 .the-code {
-  background: url('/src/assets/images/ca-black-side-p-500.jpeg');
+  background: url('/assets/images/ca-black-side-p-500.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -539,7 +539,7 @@ input:focus {
 }
 
 .duran {
-  background: url(src/assets/images/du-sand-side-p-500.jpeg);
+  background: url(assets/images/du-sand-side-p-500.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -547,7 +547,7 @@ input:focus {
 }
 
 .cactus {
-  background: url(src/assets/images/ct-army-side-p-500.jpeg);
+  background: url(assets/images/ct-army-side-p-500.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -555,7 +555,7 @@ input:focus {
 }
 
 .the-eye {
-  background: url(src/assets/images/te-sand-side-p-500.jpeg);
+  background: url(assets/images/te-sand-side-p-500.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -563,7 +563,7 @@ input:focus {
 }
 
 .carnera {
-  background: url(src/assets/images/ca-black-side-p-500.jpeg);
+  background: url(assets/images/ca-black-side-p-500.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -730,7 +730,7 @@ input:focus {
   }
 
   .the-code {
-    background: url(src/assets/images/tc-black-side-p-800.jpeg);
+    background: url(assets/images/tc-black-side-p-800.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -738,7 +738,7 @@ input:focus {
   }
 
   .duran {
-    background: url(src/assets/images/du-sand-side-p-800.jpeg);
+    background: url(assets/images/du-sand-side-p-800.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -746,7 +746,7 @@ input:focus {
   }
 
   .cactus {
-    background: url(src/assets/images/ct-army-side-p-800.jpeg);
+    background: url(assets/images/ct-army-side-p-800.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -754,7 +754,7 @@ input:focus {
   }
 
   .the-eye {
-    background: url(src/assets/images/te-sand-side-p-800.jpeg);
+    background: url(assets/images/te-sand-side-p-800.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -762,7 +762,7 @@ input:focus {
   }
 
   .carnera {
-    background: url(src/assets/images/ca-black-side-p-800.jpeg);
+    background: url(assets/images/ca-black-side-p-800.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -839,7 +839,7 @@ input:focus {
   }
 
   .ink .testimonial-name::after {
-    background: url(src/assets/images/virgolette.svg) no-repeat;
+    background: url(assets/images/virgolette.svg) no-repeat;
   }
 }
 

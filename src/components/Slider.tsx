@@ -51,7 +51,7 @@ export const Slider = () => {
           {sliderImages.map((product, idx) =>
             <div className="card" key={idx}>
               <div className={`card-img-div ${product.img}`}></div>
-              <img className="unisex" srcSet="src/assets/images/unisex-label.svg" alt="" />
+              <img className="unisex" srcSet="assets/images/unisex-label.svg" alt="" />
               <div>{product.season}</div>
               <div>{product.code}</div>
               <div className="line-through">&euro; {product.oldPrice}</div>

@@ -47,7 +47,7 @@ export const Header = () => {
       </nav>
       <div className={isNavOpen ? "mobile-nav-open block" : 'mobile-nav-open'}>
         <div className="mobile-nav-open-flex">
-          {!isNavOpen && <img className="logo" src="src/assets/images/de-logotype-white.svg" alt="" />}
+          {!isNavOpen && <img className="logo" src="assets/images/de-logotype-white.svg" alt="" />}
           <i id="close" onClick={hanldeMobileNavToggle} className="fas fa-times fa-3x"></i>
           <div style={{ marginLeft: 'auto' }}>CART</div>
         </div>
@@ -79,7 +79,7 @@ export const Header = () => {
         </div>
       </div>
       <nav className="desktop-nav">
-        <div><img className="vertical-logo" src="src/assets/images/de-logotype-vert.svg" alt="" /></div>
+        <div><img className="vertical-logo" src="assets/images/de-logotype-vert.svg" alt="" /></div>
         <div id="ink-mode" onClick={tpggleInkMode}>INK MODE</div>
         <div>CART</div>
       </nav>
