@@ -4,7 +4,7 @@ import { Testimonials } from './Testimonials'
 import menDefaultBig from '../assets/images/man-default-p-800.jpeg'
 import menDefaultSmall from '../assets/images/man-default-p-500.jpeg'
 import womenDefaultBig from '../assets/images/women-default-p-800.jpeg'
-import womenDefaultSmall from '../assets/images/women-default-p-800.jpeg'
+import womenDefaultSmall from '../assets/images/women-default-p-500.jpeg'
 import circle from '../assets/images/circle-container.svg'
 import arrowLogo from '../assets/images/arrow.svg'
 import inkContainer from '../assets/images/ink-container.svg'
@@ -92,7 +92,7 @@ export const Main = () => {
               <img src={menDefaultSmall} alt="" />
             </picture>
           </div>
-          <div>
+          <div className="">
             <picture>
               <source media="(min-width:800px)" src={womenDefaultBig} />
               <source media="(min-width:500px)" src={womenDefaultSmall} />
