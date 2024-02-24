@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react'
 import { Slider } from './Slider'
 import { Testimonials } from './Testimonials'
-import menDefaultBig from 'assets/images/man-default-p-800.jpeg'
-import menDefaultSmall from 'assets/images/man-default-p-500.jpeg'
-import womenDefaultBig from 'assets/images/women-default-p-800.jpeg'
-import womenDefaultSmall from 'assets/images/women-default-p-800.jpeg'
-import circle from 'assets/images/circle-container.svg'
-import arrowLogo from 'assets/images/arrow.svg'
-import inkContainer from 'assets/images/ink-container.svg'
-import arrowRight from 'assets/images/arrow-right.svg'
+import menDefaultBig from './assets/images/man-default-p-800.jpeg'
+import menDefaultSmall from './assets/images/man-default-p-500.jpeg'
+import womenDefaultBig from './assets/images/women-default-p-800.jpeg'
+import womenDefaultSmall from './assets/images/women-default-p-800.jpeg'
+import circle from './assets/images/circle-container.svg'
+import arrowLogo from './assets/images/arrow.svg'
+import inkContainer from './assets/images/ink-container.svg'
+import arrowRight from './assets/images/arrow-right.svg'
 
 export const Main = () => {
   const marque = new Array(10).fill(1)
