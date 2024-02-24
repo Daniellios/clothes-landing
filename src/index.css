@@ -161,7 +161,7 @@ ul {
   position: absolute;
   top: 28%;
   right: -55px;
-  background: url(images/scotch-tape.svg);
+  background: url(assets/images/scotch-tape.svg);
   background-repeat: no-repeat;
   background-size: auto;
   width: 100px;
@@ -444,7 +444,7 @@ footer {
 
 .testimonial-name::after {
   content: '';
-  background: url(images/virgolette1.svg);
+  background: url(assets/images/virgolette1.svg);
   background-repeat: no-repeat;
   background-size: auto;
   width: 100%;
@@ -531,7 +531,7 @@ input:focus {
 }
 
 .the-code {
-  background: url('/assets/images/ca-black-side-p-500.jpeg');
+  background: url(assets/images/ca-black-side-p-500.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import logo from '../assets/images/newsletter-face.svg'
+
 export const Footer = () => {
   const scrollUP = () => {
     document.body.scrollTop = 0; // For Safari
@@ -10,7 +12,7 @@ export const Footer = () => {
       <div className="footer-grid">
         <div className="mobile-none">
           <h4>Subscribe to Newsletter</h4>
-          <img className="newsletter" src="assets/images/newsletter-face.svg" alt="" />
+          <img className="newsletter" src={logo} alt="" />
         </div>
         <div>
           <ul>
@@ -37,7 +39,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="arrow-up" onClick={scrollUP}>
-        <img id="arrow-up" src="assets/images/arrow-up.svg" alt="" />
+        <img id="arrow-up" src="src/assets/images/arrow-up.svg" alt="" />
       </div>
       <div className="footer-bottom">
         <div className="flex-end">Credits</div>
